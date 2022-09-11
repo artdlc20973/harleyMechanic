@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Harley_Davidson.jpg/1024px-Harley_Davidson.jpg')no-repeat;
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  padding: 1.2em;
+  font-size: 1.3em;
+  color: #ffc558;
+  font-weight: bolder;
+  letter-spacing: 1px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav li {
+  list-style: none;
+}
+
+.nav li a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1em;
+  margin: 1em;
+  color: #ffc558;
+}
+
+.nav li a:hover {
+  color: #acfff8;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 200px auto;
+}
+
+h1 {
+  color: #ffc558;
+  margin-bottom: .4em;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+}
+
+p {
+  margin: 1.8em;
+  color: #ffc558;
+  font-size: 1.2em;
+  letter-spacing: 2px;
+  word-spacing: 3px;
+  line-height: 1.5;
+}
+
+p:hover {
+  margin: 1.8em;
+  color: #7cfff4;
+  font-size: 1.2em;
+  letter-spacing: 2px;
+  word-spacing: 3px;
+  line-height: 1.5;
+}
+
+button {
+  background: #f3ff4e57;
+  color: #fff;
+  padding: 12px 45px;
+  font-size: 1.2em;
+  border: none;
+  letter-spacing: 2px;
+  word-spacing: 3px;
+  transition: all .5s ease;
+}
+
+button:hover {
+  transform: translateY(10px);
+  background: #ffc5586e;
+  border-radius: 25px;
+}
